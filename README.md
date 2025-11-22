@@ -211,6 +211,11 @@ The framework of the code are based on the excellent work of [CricaVPR](https://
 If you find this repo useful for your research, please cite the paper
 
 ```
-
+@article{zhang2025d,
+  title={D\textsuperscript{2}-VPR: A Parameter-efficient Visual-foundation-model-based Visual Place Recognition Method via Knowledge Distillation and Deformable Aggregation},
+  author={Zhang, Zheyuan and Zhang, Jiwei and Zhou, Boyu and Duan, Linzhimeng and Chen, Hong},
+  journal={arXiv preprint arXiv:2511.12528},
+  year={2025}
+}
 
 ```
