@@ -1,0 +1,13 @@
+numpy==2.0.1
+pandas==2.2.3    
+Pillow==11.1.0
+pytorch_metric_learning==2.8.1
+scikit_learn==1.6.1
+torch==2.3.0
+torchvision==0.18.0
+tqdm==4.67.1
+faiss-gpu==1.8.0
+pytorch-cuda==11.8
+einops==0.7.0
+lightning==2.5.1.post0
+rich==14.0.0 
