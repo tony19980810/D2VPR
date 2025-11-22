@@ -13,7 +13,7 @@ Main Paper: [link](https://arxiv.org/abs/2511.12528)
 
 ## 🛠️Setup
 
-This repo follows the framework of [CricaVPR](https://github.com/Lu-Feng/CricaVPR/tree/main). 
+This repo follows the framework of [CricaVPR](https://github.com/Lu-Feng/CricaVPR/tree/main) and [BoQ](https://github.com/amaralibey/Bag-of-Queries). 
 
 We use [GSV-Cities](https://github.com/amaralibey/gsv-cities) for training, and the [Visual Geo-localization Benchmark](https://github.com/gmberton/deep-visual-geo-localization-benchmark) for evaluation. You can download the GSV-Cities datasets [HERE](https://www.kaggle.com/datasets/amaralibey/gsv-cities), and refer to [VPR-datasets-downloader](https://github.com/gmberton/VPR-datasets-downloader) to prepare test datasets.
 
@@ -35,7 +35,7 @@ The test dataset should be organized in a directory tree as such:
 ```
 
 
-##🏋️‍♂Training
+## 🏋️‍♂Training
 
 Before we begin, please download the CricaVPR weights [LINK](https://drive.google.com/file/d/171lCcxZFFnvEvo88ntIwELeBegcMTEJs/view) and Dinov2-small weights [LINK](https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth).
 
