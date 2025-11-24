@@ -60,11 +60,13 @@ class HyperParams:
         self.output_dim: int = 8192
         
         ## Datasets:
-        self.gsv_cities_path: str = "/root/lanyun-tmp/train"
+        ## Select the same gsv_cities_path training set path as used for distillation.
+        self.gsv_cities_path: str = "your gsv_cities_path"
         self.cities: str | list = "all"
+        ## Please use the links in the README to download, or refer to BoQ to download the MSLS-val and Pitts30-val datasets.
         self.val_sets: dict = {
-            "msls-val":     "/root/Crica_distill_server/data/val/msls-val",
-            "pitts30k-val": "/root/Crica_distill_server/data/val/pitts30k-val",
+            "msls-val":     "your msls-val path",
+            "pitts30k-val": "your pitts30k-val path",
         }
         
         ## Training config:
