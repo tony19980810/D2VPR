@@ -44,8 +44,7 @@ Please use the following code for distillation:
 ```bash
 python distillation.py
 ```
-
-Then select the best distillation weights, change the corresponding path in finetune_script.py and use the following code for finetune:
+Before starting fine-tuning, please download the [msls-val](https://drive.google.com/file/d/1zApxUkwq4E_1gMaiDAhzorJ6DO2G07fr/view?usp=drive_link) and [pitts30k-val](https://drive.google.com/file/d/184Scho9iQ1Dg3kjXSYAIscWliF5n8Ty4/view?usp=drive_link) validation datasets for testing and update the dataset paths in the finetune.py accordingly. Then select the best distillation weights, change the corresponding path in finetune_script.py and use the following code for finetune:
 
 ```bash
 python finetune.py
